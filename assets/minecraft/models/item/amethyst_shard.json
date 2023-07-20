@@ -1,0 +1,30 @@
+{
+    "parent": "minecraft:block/amethyst_shard",
+    "textures": {
+        "layer0": "item/amethyst_shard"
+    },
+
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 1 },
+            "model": "custom:item/aqua_shard"
+        },
+
+        {
+            "predicate": { "custom_model_data": 2 },
+            "model": "custom:item/blue_shard"
+        },
+        {
+            "predicate": { "custom_model_data": 3 },
+            "model": "custom:item/green_shard"
+        },
+        {
+            "predicate": { "custom_model_data": 4 },
+            "model": "custom:item/orange_shard"
+        },
+        {
+            "predicate": { "custom_model_data": 5 },
+            "model": "custom:item/red_shard"
+        }
+    ]
+}
