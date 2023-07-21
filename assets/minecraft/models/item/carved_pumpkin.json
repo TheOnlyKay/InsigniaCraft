@@ -17,6 +17,10 @@
         {
             "predicate": { "custom_model_data": 3 },
             "model": "custom:item/volcano_hat"
+        },
+        {
+            "predicate": { "custom_model_data": 4 },
+            "model": "custom:item/ender_protector"
         }
     ]
 }
