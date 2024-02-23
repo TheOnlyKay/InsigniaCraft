@@ -1,8 +1,10 @@
 {
 	"credit": "Made with Blockbench",
+	"parent": "carved_pumpkin",
+	"texture_size": [ 64, 64 ],
 	"textures": {
-		"0": "Skull",
-		"particle": "Skull"
+		"0": "custom:item/DemiseSkull",
+		"particle": "custom:item/DemiseSkull"
 	},
 	"elements": [
 		{
@@ -32,8 +34,8 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [118.45, -19.23, 177.84],
-			"translation": [1.75, -0.25, 0.25]
+			"rotation": [-117, 0, 177.84],
+			"translation": [0, 1.5, 0]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [-131.76, 17.35, 171.75],
@@ -62,8 +64,8 @@
 			"scale": [1.85938, 1.85938, 1.85938]
 		},
 		"fixed": {
-			"rotation": [91.5, -0.89, -179.97],
-			"translation": [0, 0, -13.25],
+			"rotation": [180, -0.89, -179.97],
+			"translation": [0, 6.25, -1],
 			"scale": [2, 2, 2]
 		}
 	}
