@@ -8,6 +8,7 @@
 	},
 	"elements": [
 		{
+			"name": "Second Layer Outside",
 			"from": [3.5, 0, 3.5],
 			"to": [12.5, 9, 12.5],
 			"faces": {
@@ -20,6 +21,20 @@
 			}
 		},
 		{
+			"name": "Second Layer Inside",
+			"from": [12.5, 9, 12.5],
+			"to": [3.5, 0, 3.5],
+			"faces": {
+				"north": {"uv": [10, 8, 12, 16], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [12, 8, 14, 16], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [14, 8, 16, 16], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [8, 8, 10, 16], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [12, 0, 14, 8], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [10, 0, 12, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "First Layer outside",
 			"from": [4, 0.5, 4],
 			"to": [12, 8.5, 12],
 			"faces": {
@@ -29,6 +44,19 @@
 				"west": {"uv": [0, 8, 2, 16], "texture": "#0"},
 				"up": {"uv": [2, 0, 4, 8], "texture": "#0"},
 				"down": {"uv": [4, 0, 6, 8], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "First Layer Inside",
+			"from": [12, 8.5, 12],
+			"to": [4, 0.5, 4],
+			"faces": {
+				"north": {"uv": [2, 8, 4, 16], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [4, 8, 6, 16], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [6, 8, 8, 16], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [0, 8, 2, 16], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [4, 0, 6, 8], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4, 0, 2, 8], "texture": "#0"}
 			}
 		}
 	],
