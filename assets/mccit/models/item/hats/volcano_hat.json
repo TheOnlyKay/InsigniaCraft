@@ -4,8 +4,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "custom:item/volcano_hat",
-		"1": "custom:item/volcano_explosion"
+		"0": "mccit:item/hats/volcano_hat",
+		"1": "mccit:item/hats/volcano_explosion"
 
 	},
 	"elements": [

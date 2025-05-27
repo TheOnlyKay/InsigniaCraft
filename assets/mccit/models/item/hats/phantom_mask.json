@@ -3,8 +3,8 @@
 	"parent": "carved_pumpkin",
 	"texture_size": [ 64, 64 ],
 	"textures": {
-		"0": "custom:item/phantomMask",
-		"particle": "custom:item/phantomMask"
+		"0": "mccit:item/hats/phantom_mask",
+		"particle": "mccit:item/hats/phantom_mask"
 	},
 	"elements": [
 		{
