@@ -5,7 +5,7 @@
     "component": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "minecraft:block/carved_pumpkin"
+      "model": "minecraft:item/amethyst_shard"
     },
     "cases": [
       {
@@ -16,7 +16,7 @@
         },
         "model": {
           "type": "model",
-          "model": "mccit:item/hats/phantom_menace"
+          "model": "mccit:item/shards/aqua_shard"
         }
       },
       {
@@ -27,7 +27,7 @@
         },
         "model": {
           "type": "model",
-          "model": "mccit:item/hats/phantom_mask"
+          "model": "mccit:item/shards/blue_shard"
         }
       },
       {
@@ -38,7 +38,7 @@
         },
         "model": {
           "type": "model",
-          "model": "mccit:item/hats/volcano_hat"
+          "model": "mccit:item/shards/green_shard"
         }
       },
       {
@@ -49,7 +49,18 @@
         },
         "model": {
           "type": "model",
-          "model": "mccit:item/hats/ender_protector"
+          "model": "mccit:item/shards/orange_shard"
+        }
+      },
+      {
+        "when": {
+          "floats": [
+            5
+          ]
+        },
+        "model": {
+          "type": "model",
+          "model": "mccit:item/shards/red_shard"
         }
       }
     ]

@@ -5,7 +5,7 @@
     "component": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "minecraft:item/netherite_pickaxe"
+      "model": "minecraft:item/fire_charge"
     },
     "cases": [
       {
@@ -16,7 +16,7 @@
         },
         "model": {
           "type": "model",
-          "model": "mccit:item/pickaxe/magma_pickaxe"
+          "model": "mccit:item/misc/fire_charge"
         }
       }
     ]

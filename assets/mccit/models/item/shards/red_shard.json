@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0":"mccit:item/pickaxe/magma_pickaxe_animation"
+    "layer0": "mccit:item/shards/red_shard"
   }
 }
