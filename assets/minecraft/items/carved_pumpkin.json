@@ -51,6 +51,17 @@
           "type": "model",
           "model": "mccit:item/hats/ender_protector"
         }
+      },
+      {
+        "when": {
+          "floats": [
+            5
+          ]
+        },
+        "model": {
+          "type": "model",
+          "model": "mccit:item/hats/helmet_piglin"
+        }
       }
     ]
   }
