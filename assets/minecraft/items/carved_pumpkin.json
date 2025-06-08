@@ -2,67 +2,26 @@
   "model": {
     "type": "select",
     "property": "component",
-    "component": "custom_model_data",
+    "component": "custom_name",
     "fallback": {
-      "type": "model",
-      "model": "minecraft:block/carved_pumpkin"
+        "type": "model",
+        "model": "minecraft:block/carved_pumpkin"
     },
     "cases": [
-      {
-        "when": {
-          "floats": [
-            1
-          ]
+        {
+            "when": "Menace",
+            "model": {
+                "type": "model",
+                "model": "mccit:item/hats/phantom_menace"
+            }
         },
-        "model": {
-          "type": "model",
-          "model": "mccit:item/hats/phantom_menace"
+        {
+          "when": "Mask",
+          "model": {
+              "type": "model",
+              "model": "mccit:item/hats/phantom_mask"
+          }
         }
-      },
-      {
-        "when": {
-          "floats": [
-            2
-          ]
-        },
-        "model": {
-          "type": "model",
-          "model": "mccit:item/hats/phantom_mask"
-        }
-      },
-      {
-        "when": {
-          "floats": [
-            3
-          ]
-        },
-        "model": {
-          "type": "model",
-          "model": "mccit:item/hats/volcano_hat"
-        }
-      },
-      {
-        "when": {
-          "floats": [
-            4
-          ]
-        },
-        "model": {
-          "type": "model",
-          "model": "mccit:item/hats/ender_protector"
-        }
-      },
-      {
-        "when": {
-          "floats": [
-            5
-          ]
-        },
-        "model": {
-          "type": "model",
-          "model": "mccit:item/hats/helmet_piglin"
-        }
-      }
     ]
   }
 }
