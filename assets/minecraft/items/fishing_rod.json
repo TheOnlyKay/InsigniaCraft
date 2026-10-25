@@ -1,0 +1,56 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:fishing_rod/cast",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod"
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod_cast"
+      }
+    },
+    "cases": [
+      {
+        "when": {
+          "floats": [
+            1
+          ]
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "fixed",
+                "head"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "mccit:item/fishing_rod/crystal_fishing_rod_cast"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:fishing_rod/cast",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "mccit:item/fishing_rod/crystal_fishing_rod"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "mccit:item/fishing_rod/crystal_fishing_rod_cast"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
